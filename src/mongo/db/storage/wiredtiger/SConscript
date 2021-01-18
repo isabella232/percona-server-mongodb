@@ -37,6 +37,7 @@ if wiredtiger:
         source= [
             'encryption_keydb.cpp',
             'oplog_stones_server_status_section.cpp',
+            'wiredtiger_backup_cursor_hooks.cpp',
             'wiredtiger_begin_transaction_block.cpp',
             'wiredtiger_cursor.cpp',
             'wiredtiger_data_protector.cpp',
